@@ -1,7 +1,13 @@
-{
+ {
   "compilerOptions": {
+    "target": "es2020",
+    "module": "esnext",
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "src",
+    "jsx": "react",
+    "noImplicitAny": false,
     "paths": {
-      "@/*": ["./*"]
+      "components/*": ["./components/*"]
     }
   }
 }
